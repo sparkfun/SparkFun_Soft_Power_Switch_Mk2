@@ -67,8 +67,14 @@ Repository Contents
 
 Product Versions
 ----------------
-* [PRT-26993](https://www.sparkfun.com/products/26993) - SparkFun Red Release
-* [SPX-25365](https://www.sparkfun.com/products/25365) - Original SparkX Release
+* [PRT-26993](https://www.sparkfun.com/products/26993) - SparkFun Red Release v2
+* [SPX-25365](https://www.sparkfun.com/products/25365) - Original SparkX Release v2
+* [SPX-17870](https://www.sparkfun.com/products/17870) - Original SparkX Release v1
+
+Version History
+---------------
+* v2.0 - Soft Power Switch Mk2 - JST 2mm (PRT-26993 and SPX-25365)
+* v1.0 - Soft Power Switch Mk1 (SPX-17870)
 
 License Information
 -------------------
