@@ -1,14 +1,14 @@
-SparkFun Soft Power Switch Mk2
+SparkFun Soft Power Switch Mk2 - JST 2mm
 ===================================================
 
-[![SparkFun Soft Power Switch Mk2 (SPX-25365)](./Hardware/Dimensions.png)](https://www.sparkfun.com/products/25365)
+[![SparkFun Soft Power Switch Mk2 (PRT-26993)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-Feature.jpg)](https://www.sparkfun.com/products/26993)
 
-[*SparkFun Soft Power Switch Mk2 (SPX-25365)*](https://www.sparkfun.com/products/25365)
+[*SparkFun Soft Power Switch Mk2 (PRT-26993)*](https://www.sparkfun.com/products/26993)
 
 
 The Soft Power Switch Mk2 is a passive, hard on/off switch with software feedback and control. In other words, it's like the on/off switch on a laptop. A simple press will turn the system on. Another press can (with MCU intervention) turn off the system. And if things go really wrong, pressing and holding the button for ~7 seconds will force a power-down. If you're building something with an enclosed battery and need a good power button, this is the board you need.
 
-The [Mk1 Soft Power Switch](https://www.sparkfun.com/products/17870) is great, but we do see occasional issues caused by component tolerances or the operating temperature. Mk2 is based on an application note by Texas Instruments, and is a completely digital design. It is based around a 74LVC1G175 D-type flip-flop - remember those?! - and is insensitive to temperature and component variation. It also includes improvements like: an over-current self-resetting 2A fuse; input and output LEDs. This version has JST 2mm battery connectors, but we also have a version with [USB-C](https://www.sparkfun.com/products/25366) connectors.
+The [Mk1 Soft Power Switch](https://www.sparkfun.com/products/17870) is great, but we do see occasional issues caused by component tolerances or the operating temperature. Mk2 is based on an application note by Texas Instruments, and is a completely digital design. It is based around a 74LVC1G175 D-type flip-flop - remember those?! - and is insensitive to temperature and component variation. It also includes improvements like: an over-current self-resetting 2A fuse; input and output LEDs. This version has JST 2mm battery connectors.
 
 The PUSH pin can act as an output to a microcontroller indicating the state of the power button (high = not pressed, low = user is pressing power button). This can be used as an input to your firmware to begin to shut down before power is lost. PUSH is an open-drain output and requires a pull-up. Alternatively, the OFF pin can be driven **high** by the system forcing fast power off via software. (For Mk1, the Fast Off pin was driven **low**.)
 
@@ -67,7 +67,8 @@ Repository Contents
 
 Product Versions
 ----------------
-* [SPX-25365](https://www.sparkfun.com/products/25365) - Original SparkX Release.
+* [PRT-26993](https://www.sparkfun.com/products/26993) - SparkFun Red Release
+* [SPX-25365](https://www.sparkfun.com/products/25365) - Original SparkX Release
 
 License Information
 -------------------
