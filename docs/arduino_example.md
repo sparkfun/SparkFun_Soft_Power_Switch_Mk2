@@ -4,6 +4,11 @@
     - [Installing the Arduino IDE](https://learn.sparkfun.com/tutorials/installing-arduino-ide)
     - [Installing Board Definitions in the Arduino IDE](https://learn.sparkfun.com/tutorials/installing-board-definitions-in-the-arduino-ide)
 
+!!! note
+    If you've never connected an CH340 device to your computer before, you may need to install drivers for the USB-to-serial converter. Check out our section on "[How to Install CH340 Drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers)" for help with the installation.
+
+    - [How to Install CH340 Drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
+
 For the scope of this tutorial, we will highlight the example from the GitHub repository to get started. Head to the GitHub repository to download the example.  
 
 <div style="text-align: center">
@@ -14,7 +19,7 @@ For the scope of this tutorial, we will highlight the example from the GitHub re
 
 ### Upload Arduino Example
 
-After unzipping the compressed files, navigate to the example: ... > **SparkFun_Soft_Power_Switch_USB-C-main** > **Examples** > **SoftPowerSwitchMk2_Example**.
+After unzipping the compressed files, navigate to the example: ... > **SparkFun_Soft_Power_Switch_USB-C-main** > **Examples** > **SoftPowerSwitchMk2_Example** > **SoftPowerSwitchMk2_Example**.
 
 For users using an Arduino microcontroller, select your board in the Tools menu (in our case the **SparkFun ESP32 RedBoard IoT RedBoard**) and the correct Port it enumerated on.
 
@@ -257,13 +262,13 @@ If you have not already, connect the Soft Power Switch Mk2's power, OFF, and PUS
         <tr>
             <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">OFF</font>
             </td>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">32</font>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000"><code>32</code> (or <code>A4</code>)</font>
             </td>
         </tr>
         <tr>
             <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">PUSH</font>
             </td>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">14</font>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000"><code>14</code></font>
             </td>
         </tr>
     </table>
