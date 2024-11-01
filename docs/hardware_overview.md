@@ -49,7 +49,6 @@ Differences include:
 - Slightly bigger PCB: 1.0"x1.0" sized breakout (the Mk1 was 0.8"x1.0").
 
 
-
 ### Power
 
 !!! warning
@@ -63,7 +62,7 @@ Differences include:
 
 The maximum input voltage that the Soft Power Switch Mk2 can handle is **5.5V** while the minimum input voltage is _1.8V_. The board was designed to be used with single cell LiPo batteries with the built-in 2-pin JST connector, so the typical voltage will be about 3.7V nominally. The maximum current draw that the board can handle is 2A continuous and 4A peak (fuse protected). With the VIN LED disabled, the board has a very low quiescent current: <1&micro;A @ 3.75V.
 
-* **VIN** &mdash; This pin is the voltage input. As stated above, the maximum input voltage is 5.5V while the minimum is 1.8V. Voltage is applied to this pin from a single Cell LiPo battery which is about 3.7V nominally.
+* **VIN** &mdash; This pin is the voltage input. As stated above, the maximum input voltage is 5.5V while the minimum is 1.8V. Voltage is applied to this pin from a single cell LiPo battery which is about 3.7V nominally.
 * **VOUT** &mdash; The output voltage of the board whenever the switch is active.
 * **GND** &mdash; Of course, is the common, ground voltage (0V reference) for the system.
 
@@ -151,7 +150,7 @@ The back of the board includes jumpers to configure the board.
 
 ### Board Dimensions
 
-The board is 1.0" x 1.0" (2.54mm x 2.54). There are 4x mounting holes by the corners of the board. You can use 4-40 standoffs to mount the board to a panel or enclosure.
+The board is 1.0" x 1.0" (2.54mm x 2.54mm). There are 4x mounting holes by the corners of the board. You can use 4-40 standoffs to mount the board to a panel or enclosure.
 
 <div style="text-align: center;">
   <table>

@@ -237,7 +237,7 @@ After uploading the code, disconnect the Arduino from your COM port. Then wire a
     </table>
 </div>
 
-If you have not already, connect the Soft Power Switch Mk2's power, OFF, and PUSH  to your Arduino's GPIO pins. In this case, we used the SparkFun IoT RedBoard - ESP32 Development Board. Depending on your microcontroller, you may need to adjust the pin connections and definitions with respect to the microcontroller's GPIO pins.
+If you have not already, connect the Soft Power Switch Mk2's power, OFF, and PUSH to your Arduino's GPIO pins. In this case, we used the SparkFun IoT RedBoard - ESP32 Development Board. Depending on your microcontroller, you may need to adjust the pin connections and definitions with respect to the microcontroller's GPIO pins.
 
 <div style="text-align: center;">
     <table>
@@ -250,7 +250,7 @@ If you have not already, connect the Soft Power Switch Mk2's power, OFF, and PUS
         <tr>
             <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">VOUT</font>
             </td>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">5V</font>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">+</font>
             </td>
         </tr>
         <tr>
@@ -307,6 +307,7 @@ Pulling OFF high
 </div>
 
 
+
 ### Normal Operation - Power On
 
 Press down on the button for just over 0.5 seconds (but no longer than 2 seconds) to power your Arduino for normal system operation. Once the ESP32 boots up, you should see the following output. A timer will begin checking the length of time that the button has been pressed down. Once the button has been released, you will receive an output indicating the amount of time that the button has been pressed down after 0.5 seconds.
@@ -333,6 +334,9 @@ Power button released after ms: 300
   </table>
 </div>
 
+!!! note
+    The wake-up time can be tweaked to your own user experience. We found 500ms for power up work really well.
+
 
 
 ### Normal Operation - Power Off
@@ -356,13 +360,16 @@ Pulling OFF high
   </table>
 </div>
 
+!!! note
+    The power-down time can be tweaked to your own user experience. We found 2s for power-down work really well. If you decide to adjust the power-down time, make sure to not exceed ~10 seconds as the force power down will take into effect.
+
 
 
 ### System Lock and Power Down via Arduino Serial Monitor
 
 Remember the output from earlier? There were additional options to control the Soft Power Switch from the Arduino Serial Monitor. Press down on the power button for 0.5 seconds to enter the normal operation again. You will be presented with two options:
 
-* **<kbd>r</kbd>** &mdash; Sending an **r** will cause the Arduino to enter an infinite loop to test power-down override. This will lock the system and force the Soft Power Switch to only shutdown when the button is pressed down rather then sending a character to the Arduino to power down. When locking the system, you will need to press the button down for **7 seconds** to force the Soft Power Switch to power down. Once the button has been pressed down for 7 seconds, the Soft Power Switch will shut power off on the OUT port.
+* **<kbd>r</kbd>** &mdash; Sending an **r** will cause the Arduino to enter an infinite loop to test power-down override. This will lock the system and force the Soft Power Switch to only shutdown when the button is pressed down rather then sending a character to the Arduino to power down. When locking the system, you will need to press the button down for **7 seconds** to force the Soft Power Switch to power down. Once the button has been pressed down for 7 seconds, the Soft Power Switch will shut power off at the OUT port.
 * **<kbd>z</kbd>** &mdash; Sending a **z** will power down the Arduino.
 
 <div style="text-align: center;">
@@ -376,7 +383,7 @@ Remember the output from earlier? There were additional options to control the S
   </table>
 </div>
 
-Let's send an <kbd>r</kbd> to lock the system to test the force the Soft Power Switch Mk2 to power down. Then press down on the power button for 7 seconds. You will receive the following message indicating that the system is locked. Once the power button is pressed down, an additional message on the next line will be output to indicate that we are waiting for the power override.
+Let's send an <kbd>r</kbd> to lock the system to force the Soft Power Switch Mk2 to power down. Then press down on the power button for 7 seconds. You will receive the following message indicating that the system is locked. Once the power button is pressed down, an additional message on the next line will be output to indicate that we are waiting for the power override.
 
 ``` bash
 System locked. Now hold power button to force power down without using software
@@ -396,7 +403,7 @@ Doing nothing, waiting for power override to kick in
 
 
 !!! note
-    If the button is released before 7 seconds, you will receive the following message indicating that the forced power down could not be completed when the system is locked. This will break out of the infinite loop and require you to send character another <kbd>r</kbd> through the serial terminal to test the power-down override again
+    If the button is released before 7 seconds, you will receive the following message indicating that the forced power down could not be completed when the system is locked. This will break out of the infinite loop and require you to send another <kbd>r</kbd> through the serial terminal in order to test the power-down override again.
 
     ``` bash
     User released button before forced powered could complete. Try again, but hold power button for 7s

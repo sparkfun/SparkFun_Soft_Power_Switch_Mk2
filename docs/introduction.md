@@ -103,32 +103,74 @@ To follow along with this tutorial, you will need the following materials. You m
       PRT-09914
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
--   <a href="https://www.sparkfun.com/products/116">
+-   <a href="https://www.sparkfun.com/products/115">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com/assets/parts/1/0/6/00116-02-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Break Away Headers - Straight">
+        <img src="https://cdn.sparkfun.com/assets/parts/1/0/5/00115-03-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Female Headers">
       </figure>
     </a>
 
     ---
 
-    <a href="https://www.sparkfun.com/products/116">
-      <b>Break Away Headers - Straight</b>
+    <a href="https://www.sparkfun.com/products/115">
+      <b>Female Headers</b>
       <br />
-      PRT-00116
+      PRT-00115
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
--   <a href="https://www.sparkfun.com/products/9140">
+-   <a href="https://www.sparkfun.com/products/8431">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com/assets/parts/2/5/5/7/09140-02-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Jumper Wires Premium 6" M/F Pack of 10">
+        <img src="https://cdn.sparkfun.com/assets/parts/1/1/8/1/JumperWire-Male-01-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Jumper Wires Premium 6" M/M Pack of 10">
       </figure>
     </a>
 
     ---
 
-    <a href="https://www.sparkfun.com/products/9140">
-      <b>Jumper Wires Premium 6" M/F Pack of 10</b>
+    <a href="https://www.sparkfun.com/products/8431">
+      <b>Jumper Wires Premium 6" M/M Pack of 10</b>
       <br />
-      PRT-09140
+      PRT-08431
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/14460">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/1/2/2/1/8/14460-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Multicolor Buttons - 4-pack">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/14460">
+      <b>Multicolor Buttons - 4-pack</b>
+      <br />
+      PRT-14460
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/15096">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/1/3/4/5/2/15096-SparkFun_Serial_Basic_Breakout_-_CH340C_and_USB-C-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Serial Basic Breakout - CH340C and USB-C">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/15096">
+      <b>SparkFun Serial Basic Breakout - CH340C and USB-C</b>
+      <br />
+      DEV-15096
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/12045">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/8/6/2/8/12045-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Breadboard - Mini Modular (Blue)">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/12045">
+      <b>Breadboard - Mini Modular (Blue)</b>
+      <br />
+      PRT-12045
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 </div>
