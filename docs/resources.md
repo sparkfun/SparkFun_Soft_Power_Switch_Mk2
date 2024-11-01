@@ -1,8 +1,8 @@
 Now that you've successfully got your SparkFun Soft Power Switch Mk2 - JST 2mm up and running, it's time to incorporate it into your own project! For more information, check out the resources below:
 
-* [Schematic (PDF)](../assets/board_files/Soft_Power_Switch_Mk2_JST_2mm_Schematic.pdf)
-* [KiCad Files (ZIP)](../assets/board_files/Soft_Power_Switch_V10.zip)
-* [Board Dimensions (PNG)](../assets/img/SparkFun_Soft_Power_Switch_Board_Dimensions.jpg)
+* [Schematic (PDF)](../assets/board_files/Soft_Power_Switch_JST_2mm_Schematic_V10.pdf)
+* [KiCad Files (ZIP)](../assets/board_files/Soft_Power_Switch-JST_2mm_V10.zip)
+* [Board Dimensions (JPG)](../assets/img/SparkFun_Soft_Power_Switch-JST_2mm_Board_Dimensions.jpg)
 * Component Datasheets
     * [SN74LVC1G14 (PDF)](../assets/component_documentation/sn74lvc1g14.pdf)
     * [SN74LVC1G17 (PDF)](../assets/component_documentation/sn74lvc1g17.pdf)

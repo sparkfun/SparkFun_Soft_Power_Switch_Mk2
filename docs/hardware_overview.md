@@ -1,7 +1,7 @@
 
 
 
-In this section, we will highlight the hardware and pins that are broken out on the SparkFun Soft Power Switch Mk2 - JST 2mm. For more information, check out our [Resources and Going Further](../resources/) on the components used on the breakout board.
+In this section, we will highlight the hardware and pins that are broken out on the SparkFun Soft Power Switch - JST 2mm. For more information, check out our [Resources and Going Further](../resources/) on the components used on the breakout board.
 
 <div style="text-align: center;">
   <table>
@@ -26,11 +26,11 @@ The [SparkX Mk1 Soft Power Switch](https://www.sparkfun.com/products/17870) is g
   <table>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/17870-Soft_Power_Switch-02_resize.jpg"><img src="../assets/img/17870-Soft_Power_Switch-02_resize.jpg" width="600px" height="600px" alt="SparkX Soft Power Switch Mk1"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26993-Soft_Power_Switch_top.jpg"><img src="../assets/img/PRT-26993-Soft_Power_Switch_top.jpg" width="600px" height="600px" alt="SparkFun Soft Power Switch Mk2"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26993-Soft_Power_Switch_top.jpg"><img src="../assets/img/PRT-26993-Soft_Power_Switch_top.jpg" width="600px" height="600px" alt="SparkFun Soft Power Switch - JST 2mm"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>SparkX Soft Power Switch Mk1</i></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>SparkFun Soft Power Switch Mk2</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>SparkFun Soft Power Switch - JST 2mm</i></td>
     </tr>
   </table>
 </div>
@@ -44,7 +44,7 @@ It also includes improvements like:
 
 Differences include:
 
-- The Soft Power Switch Mk2 works up to 5.5V only (the Mk1 is good up to 12V).
+- The Soft Power Switch - JST 2mm works up to 5.5V only (the Mk1 is good up to 12V).
 - For Mk2, driving the fast OFF pin HIGH by the system will force fast power off via software. However for Mk1, the fast OFF pin was driven low.
 - Slightly bigger PCB: 1.0"x1.0" sized breakout (the Mk1 was 0.8"x1.0").
 
@@ -52,15 +52,15 @@ Differences include:
 ### Power
 
 !!! warning
-    The Mk2 Soft Power Switch works up to 5.5V only. (Mk1 is good up to 12V.)
+    The Soft Power Switch - JST 2mm works up to 5.5V only. (Mk1 is good up to 12V.)
 
 !!! warning
-    The Soft Power Switch Mk2 was designed to work with DC loads. Unfortunately, the board is not designed for AC loads.
+    The Soft Power Switch - JST 2mm was designed to work with DC loads. Unfortunately, the board is not designed for AC loads.
 
 !!! note
-    Once the Soft Power Switch Mk2 is powered, it will take a few seconds to discharge power after disconnecting the power source from the IN port. So if you decide to do quick power cycle, the board can still be powered if there is not a long enough delay.
+    Once the Soft Power Switch - JST 2mm is powered, it will take a few seconds to discharge power after disconnecting the power source from the IN port. So if you decide to do quick power cycle, the board can still be powered if there is not a long enough delay.
 
-The maximum input voltage that the Soft Power Switch Mk2 can handle is **5.5V** while the minimum input voltage is _1.8V_. The board was designed to be used with single cell LiPo batteries with the built-in 2-pin JST connector, so the typical voltage will be about 3.7V nominally. The maximum current draw that the board can handle is 2A continuous and 4A peak (fuse protected). With the VIN LED disabled, the board has a very low quiescent current: <1&micro;A @ 3.75V.
+The maximum input voltage that the Soft Power Switch - JST 2mm can handle is **5.5V** while the minimum input voltage is _1.8V_. The board was designed to be used with single cell LiPo batteries with the built-in 2-pin JST connector, so the typical voltage will be about 3.7V nominally. The maximum current draw that the board can handle is 2A continuous and 4A peak (fuse protected). With the VIN LED disabled, the board has a very low quiescent current: <1&micro;A @ 3.75V.
 
 * **VIN** &mdash; This pin is the voltage input. As stated above, the maximum input voltage is 5.5V while the minimum is 1.8V. Voltage is applied to this pin from a single cell LiPo battery which is about 3.7V nominally.
 * **VOUT** &mdash; The output voltage of the board whenever the switch is active.
@@ -78,7 +78,7 @@ The maximum input voltage that the Soft Power Switch Mk2 can handle is **5.5V** 
   </table>
 </div>
 
-The Soft Power Switch Mk2 also supports battery charging. If the target device has onboard LiPo charging, current can be passed back through the switch circuit and charge the battery.
+The Soft Power Switch - JST 2mm also supports battery charging. If the target device has onboard LiPo charging, current can be passed back through the switch circuit and charge the battery.
 
 
 
@@ -155,7 +155,7 @@ The board is 1.0" x 1.0" (2.54mm x 2.54mm). There are 4x mounting holes by the c
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SparkFun_Soft_Power_Switch_Board_Dimensions.jpg"><img src="../assets/img/SparkFun_Soft_Power_Switch_Board_Dimensions.jpg" width="600px" height="600px" alt="Board Dimensions"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SparkFun_Soft_Power_Switch-JST_2mm_Board_Dimensions.jpg"><img src="../assets/img/SparkFun_Soft_Power_Switch-JST_2mm_Board_Dimensions.jpg" width="600px" height="600px" alt="Board Dimensions"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Board Dimensions</i></td>

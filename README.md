@@ -1,12 +1,12 @@
-SparkFun Soft Power Switch Mk2 - JST 2mm
+SparkFun Soft Power Switch - JST 2mm
 ===================================================
 
-[![SparkFun Soft Power Switch Mk2 (PRT-26993)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-Feature.jpg)](https://www.sparkfun.com/products/26993)
+[![SparkFun Soft Power Switch - JST 2mm (PRT-26993)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-Feature.jpg)](https://www.sparkfun.com/products/26993)
 
-[*SparkFun Soft Power Switch Mk2 (PRT-26993)*](https://www.sparkfun.com/products/26993)
+[*SparkFun Soft Power Switch - JST 2mm (PRT-26993)*](https://www.sparkfun.com/products/26993)
 
 
-The Soft Power Switch Mk2 is a passive, hard on/off switch with software feedback and control. In other words, it's like the on/off switch on a laptop. A simple press will turn the system on. Another press can (with MCU intervention) turn off the system. And if things go really wrong, pressing and holding the button for ~7 seconds will force a power-down. If you're building something with an enclosed battery and need a good power button, this is the board you need.
+The Soft Power Switch - JST 2mm is a passive, hard on/off switch with software feedback and control. In other words, it's like the on/off switch on a laptop. A simple press will turn the system on. Another press can (with MCU intervention) turn off the system. And if things go really wrong, pressing and holding the button for ~7 seconds will force a power-down. If you're building something with an enclosed battery and need a good power button, this is the board you need.
 
 The [Mk1 Soft Power Switch](https://www.sparkfun.com/products/17870) is great, but we do see occasional issues caused by component tolerances or the operating temperature. Mk2 is based on an application note by Texas Instruments, and is a completely digital design. It is based around a 74LVC1G175 D-type flip-flop - remember those?! - and is insensitive to temperature and component variation. It also includes improvements like: an over-current self-resetting 2A fuse; input and output LEDs. This version has JST 2mm battery connectors.
 
@@ -30,7 +30,7 @@ If needed, pads are provided for a larger, external button.
 
 The Soft Power Switch supports battery charging. If the target device has onboard LiPo charging, current can be passed back through the switch circuit and charge the battery.
 
-<b>Heads up!</b> The Mk2 Soft Power Switch works up to 5.5V only. (Mk1 is good up to 12V.)
+<b>Heads up!</b> The Soft Power Switch - JST 2mm works up to 5.5V only. (Mk1 is good up to 12V.)
 
 Pros:
 
@@ -81,13 +81,13 @@ Repository Contents
 
 Product Versions
 ----------------
-* [PRT-26993](https://www.sparkfun.com/products/26993) - SparkFun Red Release v2
-* [SPX-25365](https://www.sparkfun.com/products/25365) - Original SparkX Release v2
-* [SPX-17870](https://www.sparkfun.com/products/17870) - Original SparkX Release v1
+* [PRT-26993](https://www.sparkfun.com/products/26993) - SparkFun Red Release Soft Power Switch - JST 2mm
+* [SPX-25365](https://www.sparkfun.com/products/25365) - Original SparkX Release Soft Power Switch Mk2 - JST 2mm
+* [SPX-17870](https://www.sparkfun.com/products/17870) - Original SparkX Release Mk1
 
 Version History
 ---------------
-* v2.0 - Soft Power Switch Mk2 - JST 2mm (PRT-26993 and SPX-25365)
+* v2.0 - Soft Power Switch - JST 2mm (PRT-26993 and SPX-25365)
 * v1.0 - Soft Power Switch Mk1 (SPX-17870)
 
 License Information

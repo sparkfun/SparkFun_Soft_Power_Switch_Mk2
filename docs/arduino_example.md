@@ -237,12 +237,12 @@ After uploading the code, disconnect the Arduino from your COM port. Then wire a
     </table>
 </div>
 
-If you have not already, connect the Soft Power Switch Mk2's power, OFF, and PUSH to your Arduino's GPIO pins. In this case, we used the SparkFun IoT RedBoard - ESP32 Development Board. Depending on your microcontroller, you may need to adjust the pin connections and definitions with respect to the microcontroller's GPIO pins.
+If you have not already, connect the Soft Power Switch's power, OFF, and PUSH to your Arduino's GPIO pins. In this case, we used the SparkFun IoT RedBoard - ESP32 Development Board. Depending on your microcontroller, you may need to adjust the pin connections and definitions with respect to the microcontroller's GPIO pins.
 
 <div style="text-align: center;">
     <table>
         <tr>
-            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Soft Power Switch Mk2
+            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Soft Power Switch - JST 2mm
             </th>
             <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">SparkFun IoT RedBoard -<br />ESP32 Development Board
             </th>
@@ -298,10 +298,10 @@ Pulling OFF high
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Initial_Boot_No_Button_Press.JPG"><img src="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Initial_Boot_No_Button_Press.JPG" width="600px" height="600px" alt="Arduino Output Soft Power Switch Mk2 with No Button Press on Startup"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Initial_Boot_No_Button_Press.JPG"><img src="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Initial_Boot_No_Button_Press.JPG" width="600px" height="600px" alt="Arduino Output Soft Power Switch - JST 2mm with No Button Press on Startup"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Soft Power Switch Mk2 with No Button Press on Startup</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Soft Power Switch - JST 2mm with No Button Press on Startup</i></td>
     </tr>
   </table>
 </div>
@@ -326,10 +326,10 @@ Power button released after ms: 300
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Press_Normal_Operation.JPG"><img src="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Press_Normal_Operation.JPG" width="600px" height="600px" alt="Arduino Output Soft Power Switch Mk2 Normal Operation - Power On"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Press_Normal_Operation.JPG"><img src="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Press_Normal_Operation.JPG" width="600px" height="600px" alt="Arduino Output Soft Power Switch - JST 2mm Normal Operation - Power On"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Soft Power Switch Mk2 Normal Operation - Power On</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Soft Power Switch - JST 2mm Normal Operation - Power On</i></td>
     </tr>
   </table>
 </div>
@@ -352,10 +352,10 @@ Pulling OFF high
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Press_Normal_Operation_Power_Down.JPG"><img src="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Press_Normal_Operation_Power_Down.JPG" width="600px" height="600px" alt="Arduino Output Soft Power Switch Mk2 Normal Operation Power Down"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Press_Normal_Operation_Power_Down.JPG"><img src="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Press_Normal_Operation_Power_Down.JPG" width="600px" height="600px" alt="Arduino Output Soft Power Switch - JST 2mm Normal Operation Power Down"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Soft Power Switch Mk2 Normal Operation Power Down</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Soft Power Switch - JST 2mm Normal Operation Power Down</i></td>
     </tr>
   </table>
 </div>
@@ -375,15 +375,15 @@ Remember the output from earlier? There were additional options to control the S
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Press_Normal_Operation.JPG"><img src="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Press_Normal_Operation.JPG" width="600px" height="600px" alt="Arduino Output Soft Power Switch Mk2 Normal Operation - Power On"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Press_Normal_Operation.JPG"><img src="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Press_Normal_Operation.JPG" width="600px" height="600px" alt="Arduino Output Soft Power Switch - JST 2mm Normal Operation - Power On"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Soft Power Switch Mk2 Normal Operation - Power On</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Soft Power Switch - JST 2mm Normal Operation - Power On</i></td>
     </tr>
   </table>
 </div>
 
-Let's send an <kbd>r</kbd> to lock the system to force the Soft Power Switch Mk2 to power down. Then press down on the power button for 7 seconds. You will receive the following message indicating that the system is locked. Once the power button is pressed down, an additional message on the next line will be output to indicate that we are waiting for the power override.
+Let's send an <kbd>r</kbd> to lock the system to force the Soft Power Switch to power down. Then press down on the power button for 7 seconds. You will receive the following message indicating that the system is locked. Once the power button is pressed down, an additional message on the next line will be output to indicate that we are waiting for the power override.
 
 ``` bash
 System locked. Now hold power button to force power down without using software
@@ -393,10 +393,10 @@ Doing nothing, waiting for power override to kick in
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Override_7_Seconds_Shutdown.JPG"><img src="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Override_7_Seconds_Shutdown.JPG" width="600px" height="600px" alt="Arduino Output Soft Power Switch Mk2 Button Override"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Override_7_Seconds_Shutdown.JPG"><img src="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_Button_Override_7_Seconds_Shutdown.JPG" width="600px" height="600px" alt="Arduino Output Soft Power Switch - JST 2mm Button Override"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Soft Power Switch Mk2 Button Override</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Soft Power Switch - JST 2mm Button Override</i></td>
     </tr>
   </table>
 </div>
@@ -412,10 +412,10 @@ Doing nothing, waiting for power override to kick in
     <div style="text-align: center;">
       <table>
         <tr style="vertical-align:middle;">
-         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_System_Locked.JPG"><img src="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_System_Locked.JPG" width="600px" height="600px" alt="Arduino Output Soft Power Switch Mk2 Unable to Force Power Down"></a></td>
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_System_Locked.JPG"><img src="../assets/img/Arduino_Output_Soft_Power_Switch_Serial_Basic_System_Locked.JPG" width="600px" height="600px" alt="Arduino Output Soft Power Switch - JST 2mm Unable to Force Power Down"></a></td>
         </tr>
         <tr style="vertical-align:middle;">
-         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Soft Power Switch Mk2 Unable to Force Power Down</i></td>
+         <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Output Soft Power Switch - JST 2mm Unable to Force Power Down</i></td>
         </tr>
       </table>
     </div>

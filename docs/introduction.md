@@ -1,20 +1,20 @@
 
 
 
-The [SparkFun Soft Power Switch Mk2](https://www.sparkfun.com/products/26993) is a passive, hard on/off switch with software feedback and control. In other words, it's like the on/off switch on a laptop. A simple press will turn the system on. Another press can (with MCU intervention) turn off the system. And if things go really wrong, pressing and holding the button for ~10 seconds will force a power-down. If you're building something with an enclosed battery and need a good power button, this is the board you need. This version has JST 2mm battery connectors.
+The [SparkFun Soft Power Switch](https://www.sparkfun.com/products/26993) is a passive, hard on/off switch with software feedback and control. In other words, it's like the on/off switch on a laptop. A simple press will turn the system on. Another press can (with MCU intervention) turn off the system. And if things go really wrong, pressing and holding the button for ~10 seconds will force a power-down. If you're building something with an enclosed battery and need a good power button, this is the board you need. This version has JST 2mm battery connectors but we also have a version with [USB-C](https://www.sparkfun.com/products/27081) connectors.
 
 <div class="grid cards" style="width:500px; margin: 0 auto;" markdown>
 
 -   <a href="https://www.sparkfun.com/products/26993">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Soft Power Switch Mk2">
+        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Soft Power Switch - JST 2mm">
       </figure>
     </a>
 
     ---
 
     <a href="https://www.sparkfun.com/products/26993">
-      <b>SparkFun Soft Power Switch Mk2</b>
+      <b>SparkFun Soft Power Switch - JST 2mm</b>
       <br />
       PRT-26993
       <br />
@@ -22,7 +22,7 @@ The [SparkFun Soft Power Switch Mk2](https://www.sparkfun.com/products/26993) is
     </a>
 </div>
 
-In this tutorial, we'll go over the hardware and how to hookup the SparkFun Soft Power Switch Mk2 to an Arduino. We will also go over an Arduino example to get started.
+In this tutorial, we'll go over the hardware and how to hookup the SparkFun Soft Power Switch - JST 2mm to an Arduino. We will also go over an Arduino example to get started.
 
 
 
@@ -63,14 +63,14 @@ To follow along with this tutorial, you will need the following materials. You m
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/26993">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Soft Power Switch Mk2">
+        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Soft Power Switch - JST 2mm">
       </figure>
     </a>
 
     ---
 
     <a href="https://www.sparkfun.com/products/26993">
-      <b>SparkFun Soft Power Switch Mk2</b>
+      <b>SparkFun Soft Power Switch - JST 2mm</b>
       <br />
       PRT-26993
     </a>
@@ -179,7 +179,7 @@ To follow along with this tutorial, you will need the following materials. You m
 
 ### 2-Pin JST Cables
 
-For those that want to take advantage of the 2-pin JST-style connector with 2mm pitch, you can grab the following cables from the catalog. Two jumper 2 wire assemblies were spliced together with heat shrink to easily connect the Soft Power Switch Mk2 to the IoT RedBoard's 2-pin JST-style connector.
+For those that want to take advantage of the 2-pin JST-style connector with 2mm pitch, you can grab the following cables from the catalog. Two jumper 2 wire assemblies were spliced together with heat shrink to easily connect the Soft Power Switch - JST 2mm to the IoT RedBoard's 2-pin JST-style connector.
 
 <div class="grid cards col-4" markdown>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->

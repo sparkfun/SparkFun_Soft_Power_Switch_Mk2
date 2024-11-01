@@ -1,4 +1,4 @@
-In this section, we will go over how to connect to the Soft Power Switch Mk2 - JST 2mm.
+In this section, we will go over how to connect to the Soft Power Switch - JST 2mm.
 
 
 
@@ -60,7 +60,7 @@ Of course, power can also be soldered directly to the PTH as well.
         <tr>
             <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Power Supply
             </th>
-            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Soft Power Switch Mk2
+            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Soft Power Switch - JST 2mm
             </th>
         </tr>
         <tr>
@@ -78,7 +78,7 @@ Of course, power can also be soldered directly to the PTH as well.
     </table>
 </div>
 
-Remember, the Soft Power Switch Mk2 also supports battery charging. If the target device has onboard LiPo charging, current can be passed back through the switch circuit and charge the battery. For more information about LiPo battery charging and care, make sure to check the tutorial on [Single Cell LiPo Battery Care](https://learn.sparkfun.com/tutorials/single-cell-lipo-battery-care).
+Remember, the Soft Power Switch - JST 2mm also supports battery charging. If the target device has onboard LiPo charging, current can be passed back through the switch circuit and charge the battery. For more information about LiPo battery charging and care, make sure to check the tutorial on [Single Cell LiPo Battery Care](https://learn.sparkfun.com/tutorials/single-cell-lipo-battery-care).
 
 <div class="grid cards" style="width:500px; margin: 0 auto;" markdown>
 
@@ -105,10 +105,10 @@ For boards that have a built-in 2-pin JST connector for LiPo batteries, you can 
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/ width="600px" height="600px" alt="JST Cable between the Soft Power Switch Mk2 and IoT RedBoard - ESP32"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/ width="600px" height="600px" alt="JST Cable between the Soft Power Switch - JST 2mm and IoT RedBoard - ESP32"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>JST Cable between the Soft Power Switch Mk2 and IoT RedBoard - ESP32</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>JST Cable between the Soft Power Switch - JST 2mm and IoT RedBoard - ESP32</i></td>
     </tr>
   </table>
 </div>
@@ -118,7 +118,7 @@ Of course, power can also be soldered directly to the PTH as well. Since we are 
 <div style="text-align: center;">
     <table>
         <tr>
-            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Soft Power Switch Mk2
+            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Soft Power Switch - JST 2mm
             </th>
             <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">SparkFun IoT RedBoard -<br />ESP32 Development Board
             </th>
@@ -139,7 +139,7 @@ Of course, power can also be soldered directly to the PTH as well. Since we are 
 </div>
 
 !!! note
-    The voltage range of the Soft Power Switch Mk2 is between 1.8V to 5.5V. Users can also connect a different power source and connect the output to VIN or 5V of their system. Just make that the voltage is within the operating range of the target device.
+    The voltage range of the Soft Power Switch - JST 2mm is between 1.8V to 5.5V. Users can also connect a different power source and connect the output to VIN or 5V of their system. Just make that the voltage is within the operating range of the target device.
 
 
 
@@ -161,7 +161,7 @@ For users that need to connect an external button, you will simply need to conne
 <div style="text-align: center;">
     <table>
         <tr>
-            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Soft Power Switch Mk2
+            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Soft Power Switch - JST 2mm
             </th>
             <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Button
             </th>
@@ -201,7 +201,7 @@ To connect to the OFF and PUSH pins with a microcontroller, you will need two GP
 <div style="text-align: center;">
     <table>
         <tr>
-            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Soft Power Switch Mk2
+            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Soft Power Switch - JST 2mm
             </th>
             <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">SparkFun IoT RedBoard -<br />ESP32 Development Board
             </th>
