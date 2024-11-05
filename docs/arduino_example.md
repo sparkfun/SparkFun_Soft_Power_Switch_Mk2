@@ -21,9 +21,55 @@ For the scope of this tutorial, we will highlight the example from the GitHub re
 
 After unzipping the compressed files, navigate to the example: ... > **SparkFun_Soft_Power_Switch_USB-C-main** > **Examples** > **SoftPowerSwitchMk2_Example** > **SoftPowerSwitchMk2_Example**.
 
-For users using an Arduino microcontroller, select your board in the Tools menu (in our case the **SparkFun ESP32 RedBoard IoT RedBoard**) and the correct Port it enumerated on.
+If you have not already, connect the Soft Power Switch's power, OFF, and PUSH to your Arduino's GPIO pins.  In this case, we used the SparkFun IoT RedBoard - ESP32 Development Board. Depending on your microcontroller, you may need to adjust the pin connections and definitions with respect to the microcontroller's GPIO pins.  At this point, you can connect the LiPo battery into the Soft Power Switch's IN port and connect the OUT port to the RedBoard's battery input.
 
-You can also copy or paste the code as shown below. Then click "Upload".
+<div style="text-align: center;">
+    <table>
+        <tr>
+            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Soft Power Switch - JST 2mm
+            </th>
+            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">SparkFun IoT RedBoard -<br />ESP32 Development Board
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">VOUT</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">+</font>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#DDDDDD"><font color="#000000">GND</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#DDDDDD"><font color="#000000">GND</font>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">OFF</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000"><code>32</code> (or <code>A4</code>)</font>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">PUSH</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000"><code>14</code></font>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div style="text-align: center;">
+  <table>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_OFF_PUSH_USB.jpg"><img src="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_OFF_PUSH_USB.jpg" width="600px" height="600px" alt="Uploading Code to ESP32 IoT RedBoard with Soft Power Switch Connected"></a></td>
+    </tr>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Uploading Code to ESP32 IoT RedBoard with Soft Power Switch Connected</i></td>
+    </tr>
+  </table>
+</div>
+
+For users using an Arduino microcontroller, select your board in the Tools menu (in our case the **SparkFun ESP32 RedBoard IoT RedBoard**) and the correct Port it enumerated on. You can also copy or paste the code as shown below. Then click "Upload".
 
 ``` c++
     /*
@@ -205,7 +251,7 @@ You can also copy or paste the code as shown below. Then click "Upload".
     }
 ```
 
-After uploading the code, disconnect the Arduino from your COM port. Then wire a 3.3V Serial Basic Breakout to the Arduino&apos;s serial UART. In this case, we used the SparkFun IoT RedBoard - ESP32 Development Board. Depending on your microcontroller, you may need to adjust the pin connections and definitions with respect to the micrcontroller's UART pins.
+After uploading the code, disconnect the Arduino from your COM port. Then wire a 3.3V Serial Basic Breakout to the Arduino&apos;s serial UART. In this case, we used the SparkFun IoT RedBoard - ESP32 Development Board. Depending on your microcontroller, you may need to adjust the pin connections and definitions with respect to the microcontroller's UART pins.
 
 <div style="text-align: center;">
     <table>
@@ -237,56 +283,22 @@ After uploading the code, disconnect the Arduino from your COM port. Then wire a
     </table>
 </div>
 
-If you have not already, connect the Soft Power Switch's power, OFF, and PUSH to your Arduino's GPIO pins. In this case, we used the SparkFun IoT RedBoard - ESP32 Development Board. Depending on your microcontroller, you may need to adjust the pin connections and definitions with respect to the microcontroller's GPIO pins.
-
 <div style="text-align: center;">
-    <table>
-        <tr>
-            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">Soft Power Switch - JST 2mm
-            </th>
-            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">SparkFun IoT RedBoard -<br />ESP32 Development Board
-            </th>
-        </tr>
-        <tr>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">VOUT</font>
-            </td>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#f2dede"><font color="#000000">+</font>
-            </td>
-        </tr>
-        <tr>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#DDDDDD"><font color="#000000">GND</font>
-            </td>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#DDDDDD"><font color="#000000">GND</font>
-            </td>
-        </tr>
-        <tr>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000">OFF</font>
-            </td>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#cce5ff"><font color="#000000"><code>32</code> (or <code>A4</code>)</font>
-            </td>
-        </tr>
-        <tr>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">PUSH</font>
-            </td>
-            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000"><code>14</code></font>
-            </td>
-        </tr>
-    </table>
+  <table>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_Serial_Basic_USB.jpg"><img src="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_Serial_Basic_USB.jpg" width="600px" height="600px" alt="3.3V Serial Basic Connected to ESP32 IoT RedBoard Hardware"></a></td>
+    </tr>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>3.3V Serial Basic Connected to ESP32 IoT RedBoard Hardware</i></td>
+    </tr>
+  </table>
 </div>
-
-    insert here
-
-
-
-
-
-    action shot serial basic breakout connected to Arduino
 
 
 
 ### Initial Boot
 
-Open the [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics) or terminal emulator of your choice, and connect to the 3.3V Serial Basic Breakout&apos;s COM port with the baud rate set to **115200**. Insert the LiPo battery into the Soft Power Switch's IN port. Since we are using the ESP32, we will see an initial output when the microcontroller boots up. If the button is not held down for 0.5 seconds, you will receive the following message as shown below.
+Open the [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics) or terminal emulator of your choice, and connect to the 3.3V Serial Basic Breakout&apos;s COM port with the baud rate set to **115200**. Hit the reset button on the ESP32 IoT RedBoard. Since we are using the ESP32, we will see an initial output when the microcontroller boots up. If the button is not held down for 0.5 seconds, you will receive the following message as shown below.
 
 ``` bash
 Soft Power Switch Mk2 example

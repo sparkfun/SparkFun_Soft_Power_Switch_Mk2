@@ -45,7 +45,7 @@ The board was designed to be used with single cell LiPo batteries with the built
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/ width="600px" height="600px" alt="LiPo Battery inserted into JST Connector"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery.jpg"><img src="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery.jpg" width="600px" height="600px" alt="LiPo Battery inserted into JST Connector"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>LiPo Battery inserted into JST Connector</i></td>
@@ -105,7 +105,7 @@ For boards that have a built-in 2-pin JST connector for LiPo batteries, you can 
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/ width="600px" height="600px" alt="JST Cable between the Soft Power Switch - JST 2mm and IoT RedBoard - ESP32"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard.jpg"><img src="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard.jpg" width="600px" height="600px" alt="JST Cable between the Soft Power Switch - JST 2mm and IoT RedBoard - ESP32"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>JST Cable between the Soft Power Switch - JST 2mm and IoT RedBoard - ESP32</i></td>
@@ -145,12 +145,12 @@ Of course, power can also be soldered directly to the PTH as well. Since we are 
 
 ### External Button
 
-For users that need to connect an external button, you will simply need to connect one terminal of the button to BTN and the other terminal to GND.
+For users that need to connect an external button, you will simply need to connect one terminal of the button to BTN and the other terminal to GND. In this case, IC hooks and F/M jumper wires were used to connect an external momentary pushbutton.
 
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/ width="600px" height="600px" alt="External Button Connected"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_Button.jpg"><img src="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_Button.jpg" width="600px" height="600px" alt="External Button Connected"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>External Button Connected</i></td>
@@ -190,10 +190,10 @@ To connect to the OFF and PUSH pins with a microcontroller, you will need two GP
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/ width="600px" height="600px" alt="OFF and PUSH Pins Connected to IoT RedBoard "></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_OFF_PUSH.jpg"><img src="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_OFF_PUSH.jpg" width="600px" height="600px" alt="OFF and PUSH Pins Connected to IoT RedBoard"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>External Button Connected</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>OFF and PUSH Pins Connected to IoT RedBoard</i></td>
     </tr>
   </table>
 </div>
