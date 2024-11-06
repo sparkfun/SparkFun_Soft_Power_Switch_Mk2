@@ -1,7 +1,7 @@
 SparkFun Soft Power Switch - JST 2mm
 ===================================================
 
-[![SparkFun Soft Power Switch - JST 2mm (PRT-26993)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-Feature.jpg)](https://www.sparkfun.com/products/26993)
+[![SparkFun Soft Power Switch - JST 2mm (PRT-26993)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-JST-2mm-Feature.jpg)](https://www.sparkfun.com/products/26993)
 
 [*SparkFun Soft Power Switch - JST 2mm (PRT-26993)*](https://www.sparkfun.com/products/26993)
 
