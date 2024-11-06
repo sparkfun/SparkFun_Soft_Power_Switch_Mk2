@@ -7,7 +7,7 @@ The [SparkFun Soft Power Switch](https://www.sparkfun.com/products/26993) is a p
 
 -   <a href="https://www.sparkfun.com/products/26993">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Soft Power Switch - JST 2mm">
+        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-JST-2mm-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Soft Power Switch - JST 2mm">
       </figure>
     </a>
 
@@ -63,7 +63,7 @@ To follow along with this tutorial, you will need the following materials. You m
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/26993">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Soft Power Switch - JST 2mm">
+        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/9/9/PRT-26993-Soft_Power_Switch-JST-2mm-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Soft Power Switch - JST 2mm">
       </figure>
     </a>
 
