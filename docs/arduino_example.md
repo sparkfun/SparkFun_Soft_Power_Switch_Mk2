@@ -251,7 +251,7 @@ For users using an Arduino microcontroller, select your board in the Tools menu 
     }
 ```
 
-After uploading the code, disconnect the Arduino from your COM port. Then wire a 3.3V Serial Basic Breakout to the Arduino&apos;s serial UART. In this case, we used the SparkFun IoT RedBoard - ESP32 Development Board. Depending on your microcontroller, you may need to adjust the pin connections and definitions with respect to the microcontroller's UART pins.
+After uploading the code, disconnect the Arduino from your COM port. Then wire a 3.3V Serial Basic Breakout to the Arduino&apos;s serial UART. In this case, we connected to the SparkFun IoT RedBoard - ESP32 Development Board. Depending on your microcontroller, you may need to adjust the pin connections and definitions with respect to the microcontroller's UART pins.
 
 <div style="text-align: center;">
     <table>
