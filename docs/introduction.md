@@ -1,7 +1,7 @@
 
 
 
-The [SparkFun Soft Power Switch](https://www.sparkfun.com/products/26993) is a passive, hard on/off switch with software feedback and control. In other words, it's like the on/off switch on a laptop. A simple press will turn the system on. Another press can (with MCU intervention) turn off the system. And if things go really wrong, pressing and holding the button for ~10 seconds will force a power-down. If you're building something with an enclosed battery and need a good power button, this is the board you need. This version has JST 2mm battery connectors but we also have a version with [USB-C](https://www.sparkfun.com/products/27081) connectors.
+The [SparkFun Soft Power Switch](https://www.sparkfun.com/products/26993) is a passive, hard on/off switch with software feedback and control. In other words, it's like the on/off switch on a laptop. A simple press will turn the system on. Another press can (with MCU intervention) turn off the system. And if things go really wrong, pressing and holding the button for ~10 seconds will force a power-down. If you're building something with an enclosed battery and need a good power button, this is the board you need. This version has JST 2mm battery connectors.
 
 <div class="grid cards" style="width:500px; margin: 0 auto;" markdown>
 
