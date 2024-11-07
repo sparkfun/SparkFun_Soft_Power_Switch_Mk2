@@ -145,7 +145,7 @@ Of course, power can also be soldered directly to the PTH as well. Since we are 
 
 ### External Button
 
-For users that need to connect an external button, you will simply need to connect one terminal of the button to BTN and the other terminal to GND. In this case, IC hooks and F/M jumper wires were used to connect an external momentary pushbutton.
+For users that need to connect an external button, you will simply need to connect one terminal of the button to BTN and the other terminal to GND. In this case, IC hooks and F/M jumper wires were used to connect an external momentary push button.
 
 <div style="text-align: center;">
   <table>
