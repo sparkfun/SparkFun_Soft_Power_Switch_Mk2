@@ -102,7 +102,7 @@ To follow along with this tutorial, you will need the following materials. You m
       <br>
       PRT-09914
     </a>
-<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/9741">
       <figure markdown>
         <img src="https://cdn.sparkfun.com/assets/parts/3/6/9/6/09741-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="IC Hook with Pigtail">
@@ -344,7 +344,7 @@ For users connecting to the plated through holes, you will need a soldering iron
 Depending on your setup, you may want to use IC hooks for a temporary connection. However, you will want to solder header pins to connect devices to the plated through holes for a secure connection.
 
 <div class="grid cards col-4" markdown>
-
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/12002">
       <figure markdown>
         <img src="https://cdn.sparkfun.com/assets/parts/8/5/0/3/12002-Breadboard_-_Self-Adhesive__White_-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Breadboard - Self-Adhesive (White)">
