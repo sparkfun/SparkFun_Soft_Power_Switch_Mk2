@@ -395,7 +395,7 @@ Remember the output from earlier? There were additional options to control the S
   </table>
 </div>
 
-Let's send an <kbd>r</kbd> to lock the system to force the Soft Power Switch to power down. Then press down on the power button for 7 seconds. You will receive the following message indicating that the system is locked. Once the power button is pressed down, an additional message on the next line will be output to indicate that we are waiting for the power override.
+Let's send an <kbd>r</kbd> to lock the system to force the Soft Power Switch to power down. Then press down on the power button for 7 seconds. You will receive the following message indicating that the system is locked. Once the power button is pressed down, an additional message on the next line will be output to indicate that we are waiting for the power override. After 7 seconds, power will be disabled at the OUT port and the IoT RedBoard - ESP32 will turn off.
 
 ``` bash
 System locked. Now hold power button to force power down without using software
