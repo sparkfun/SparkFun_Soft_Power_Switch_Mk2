@@ -79,6 +79,10 @@ Repository Contents
   * **./partials** - Used for product documentation
 * **LICENSE.md** contains the license information
 
+Documentation
+--------------
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Soft_Power_Switch_Mk2)** - Basic hookup guide for the Soft Power Switch - JST 2mm.
+
 Product Versions
 ----------------
 * [PRT-26993](https://www.sparkfun.com/products/26993) - SparkFun Red Release Soft Power Switch - JST 2mm
