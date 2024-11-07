@@ -185,7 +185,7 @@ For users that need to connect an external button, you will simply need to conne
 
 ### Off and Push
 
-To connect to the OFF and PUSH pins with a microcontroller, you will need two GPIO pins with code to control or read the pins.
+To connect to the OFF and PUSH pins with a microcontroller, you will need two GPIO pins with code to control or read the Soft Power Switch Mk2. Depending on your microcontroller, you may need to adjust the pin connections and definitions with respect to the microcontroller's GPIO pins.
 
 <div style="text-align: center;">
   <table>
@@ -223,3 +223,50 @@ To connect to the OFF and PUSH pins with a microcontroller, you will need two GP
 
 !!! tip
     Remember, the PUSH pin requires a pull-up resistor when connecting it to a microcontroller's GPIO pin. You can use the [internal pull-up resistor](https://learn.sparkfun.com/tutorials/pull-up-resistors/all) on the microcontroller so that the pin is not floating.
+
+
+
+### Arduino Serial Output
+
+To view the Arduino's serial output when powering the system with a LiPo battery, you will need to wire a 3.3V Serial Basic Breakout to the Arduino&apos;s serial UART. In this case, we connected to the SparkFun IoT RedBoard - ESP32 Development Board primary UART port. Depending on your microcontroller, you may need to adjust the pin connections and definitions with respect to the microcontroller's UART pins.
+
+<div style="text-align: center;">
+    <table>
+        <tr>
+            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">3.3V Serial Basic
+            </th>
+            <th style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;">SparkFun IoT RedBoard<br />- ESP32 Development Board
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">TXO</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#d4edda"><font color="#000000">3/RX-0</font>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#ffdaaf"><font color="#000000">RXI</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#ffdaaf"><font color="#000000">1/TX-0</font>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#DDDDDD"><font color="#000000">GND</font>
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;" bgcolor="#DDDDDD"><font color="#000000">GND</font>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div style="text-align: center;">
+  <table>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_Serial_Basic_USB.jpg"><img src="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_Serial_Basic_USB.jpg" width="600px" height="600px" alt="3.3V Serial Basic Connected to ESP32 IoT RedBoard Hardware"></a></td>
+    </tr>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>3.3V Serial Basic Connected to ESP32 IoT RedBoard Hardware</i></td>
+    </tr>
+  </table>
+</div>
