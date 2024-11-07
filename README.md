@@ -87,8 +87,9 @@ Product Versions
 
 Version History
 ---------------
-* v2.0 - Soft Power Switch - JST 2mm (PRT-26993 and SPX-25365)
-* v1.0 - Soft Power Switch Mk1 (SPX-17870)
+* v1.0 - SparkFun Soft Power Switch - JST 2mm (PRT-26993)
+* v01 - Original SparkX Soft Power Switch MK2 - JST 2mm (SPX-25365)
+* v1.0 - Original SparkX Soft Power Switch Mk1 (SPX-17870)
 
 License Information
 -------------------
