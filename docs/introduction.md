@@ -102,33 +102,19 @@ To follow along with this tutorial, you will need the following materials. You m
       <br>
       PRT-09914
     </a>
-<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
--   <a href="https://www.sparkfun.com/products/115">
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->>
+-   <a href="https://www.sparkfun.com/products/9741">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com/assets/parts/1/0/5/00115-03-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Female Headers">
+        <img src="https://cdn.sparkfun.com/assets/parts/3/6/9/6/09741-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="IC Hook with Pigtail">
       </figure>
     </a>
 
     ---
 
-    <a href="https://www.sparkfun.com/products/115">
-      <b>Female Headers</b>
-      <br />
-      PRT-00115
-    </a>
-<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
--   <a href="https://www.sparkfun.com/products/8431">
-      <figure markdown>
-        <img src="https://cdn.sparkfun.com/assets/parts/1/1/8/1/JumperWire-Male-01-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Jumper Wires Premium 6" M/M Pack of 10">
-      </figure>
-    </a>
-
-    ---
-
-    <a href="https://www.sparkfun.com/products/8431">
-      <b>Jumper Wires Premium 6" M/M Pack of 10</b>
-      <br />
-      PRT-08431
+    <a href="https://www.sparkfun.com/products/9741">
+      <b>IC Hook with Pigtail</b>
+      <br>
+      CAB-09741
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/14460">
@@ -171,6 +157,34 @@ To follow along with this tutorial, you will need the following materials. You m
       <b>Breadboard - Mini Modular (Blue)</b>
       <br />
       PRT-12045
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/9140">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/2/5/5/7/09140-02-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Jumper Wires Premium 6" M/F Pack of 10">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/9140">
+      <b>Jumper Wires Premium 6" M/F Pack of 10</b>
+      <br />
+      PRT-09140
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/8431">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/1/1/8/1/JumperWire-Male-01-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Jumper Wires Premium 6" M/M Pack of 10">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/8431">
+      <b>Jumper Wires Premium 6" M/M Pack of 10</b>
+      <br />
+      PRT-08431
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 </div>
@@ -385,6 +399,34 @@ Depending on your setup, you may want to use IC hooks for a temporary connection
       <b>Jumper Wires Premium 6" M/F Pack of 10</b>
       <br />
       PRT-09140
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/115">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/1/0/5/00115-03-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Female Headers">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/115">
+      <b>Female Headers</b>
+      <br />
+      PRT-00115
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/8431">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/1/1/8/1/JumperWire-Male-01-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Jumper Wires Premium 6" M/M Pack of 10">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/8431">
+      <b>Jumper Wires Premium 6" M/M Pack of 10</b>
+      <br />
+      PRT-08431
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 </div>
