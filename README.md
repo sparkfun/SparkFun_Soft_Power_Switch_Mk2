@@ -47,17 +47,28 @@ Cons:
 Features
 -------------------
 * Input voltage: 5.5V maximum, 1.8V minimum
+    * Typically ~3.7V from a single cell LiPo Battery
 * Maximum current draw: 2A continuous, 4A peak (fuse protected)
-* Very low µA quiescent current
-* Hard override: push and hold the button for ~7 seconds
+* SIL2308 N&P-Channel MOSFET
+    * 70mΩ (0.070 Ohm) typical P-Channel on-resistance
+* Very low quiescent current: <1µA @ 3.75V, with VIN LED disabled
+* 2x 2-Pin JST Right-Angle Connectors
+    * VIN
+    * VOUT
 * Supports battery charging
-* 1" x 1" PCB
+* Built-in momentary push button
+  * Hard override: push and hold the button for ~10 seconds
+* Breakout PTH:
+  * GND, VIN, VOUT
+  * BTN: if desired, connect an external button between BTN and GND
+  * PUSH: open-drain output, requires pull-up, low indicates button is pushed
+  * OFF: drive high to turn the output off
 * LEDs: VIN and VOUT (can be disabled if desired)
-* Breakouts:
-    * GND, VIN, VOUT
-    * BTN: if desired, connect an external button between BTN and GND
-    * PUSH: open-drain output, requires pull-up, low indicates button is pushed
-    * OFF: drive high to turn the output off
+* Jumpers
+  * Input power LED
+  * Output power LED
+* Dimensions: 1.0in. x 1.0in. (25.4mm x 25.4mm)
+* Weight: 3.10g
 
 Repository Contents
 -------------------
