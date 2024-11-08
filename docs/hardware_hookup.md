@@ -263,10 +263,10 @@ To view the Arduino's serial output when powering the system with a LiPo battery
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_Serial_Basic_USB.jpg"><img src="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_Serial_Basic_USB.jpg" width="600px" height="600px" alt="3.3V Serial Basic Connected to ESP32 IoT RedBoard Hardware"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_Serial_Basic_USB.jpg"><img src="../assets/img/PRT-26993_SparkFun_Soft_Power_Switch_JST_LiPo_Battery_ESP32_IoT_RedBoard_Serial_Basic_USB.jpg" width="600px" height="600px" alt="3.3V Serial Basic Connected to ESP32 IoT RedBoard Hardware UART"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>3.3V Serial Basic Connected to ESP32 IoT RedBoard Hardware</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>3.3V Serial Basic Connected to ESP32 IoT RedBoard Hardware UART</i></td>
     </tr>
   </table>
 </div>

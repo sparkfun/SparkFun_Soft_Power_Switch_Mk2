@@ -87,7 +87,7 @@ The Soft Power Switch - JST 2mm also supports battery charging. If the target de
 The board includes a built-in momentary push button as the power button. This pin is broken out to a PTH for users to connect an external button. There is also the PUSH pin to indicate the button's state. The PUSH pin can act as an output to a microcontroller indicating the state of the power button (HIGH = not pressed, LOW = user is pressing power button). This can be used as an input to your firmware to begin to shut down before power is lost. Alternatively, there is also an OFF pin that can be driven HIGH by the system forcing fast power off via software. Below is a summary of the pins broken out.
 
 * **BTN** &mdash; Short for button. If desired, connect this input pin to an external button between BTN and GND.
-* **PUSH** &mdash; Open-drain output. This pin requires a pull-up resistor. A low indicates button is pushed.
+* **PUSH** &mdash; Open-drain output. This pin requires a pull-up resistor. A low indicates the button is pushed.
 * **OFF** &mdash; Drive HIGH to turn the output off.
 
 <div style="text-align: center;">
