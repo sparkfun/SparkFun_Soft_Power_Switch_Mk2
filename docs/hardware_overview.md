@@ -148,6 +148,26 @@ The back of the board includes jumpers to configure the board.
 
 
 
+### 3D Model
+
+3D models of the board and components were exported to STEP and STL files using KiCad.
+
+<!-- Import the component -->
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+
+<div style="text-align: center;">
+    <model-viewer src="../assets/3d_model/Soft_Power_Switch_JST_2mm_3D_Model.glb" camera-controls poster="../assets/3d_model/Soft_Power_Switch_JST_2mm_3D_image.png" environment-image="legacy" shadow-intensity="1.58" exposure="0.64" shadow-softness="0.24" tone-mapping="neutral" camera-orbit="-46.67deg 57.14deg 153.3m" field-of-view="30deg" style="width: 750px; height: 500px;">
+    </model-viewer>
+</div>
+<br />
+<div style="text-align: center">
+    <a href="../assets/3d_model/Soft_Power_Switch_JST_2mm_3D_Model.step" target="stp_file" class="md-button">Click Here for the STEP File</a>
+</div>
+<br />
+<div style="text-align: center">
+    <a href="../assets/3d_model/Soft_Power_Switch_JST_2mm_3D_Model.stl" target="stl_file" class="md-button">Click Here for the STL File</a>
+</div>
+
 ### Board Dimensions
 
 The board is 1.0" x 1.0" (2.54mm x 2.54mm). There are 4x mounting holes by the corners of the board. You can use 4-40 standoffs to mount the board to a panel or enclosure.
