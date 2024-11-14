@@ -79,6 +79,7 @@ Repository Contents
   * **/Production** - Production panel files
 * **/docs** - Online documentation files
   * **/assets** - Folder containing all the file assets used for product documentation
+    *  **/3d_model** - Exported 3D models from KiCad
     * **/board_files** - Copy of design files used for product documentation
     * **/component_documentation** - Datasheets and manuals for hardware components
     * **/img** - Images for product documentation
